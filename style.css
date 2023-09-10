@@ -12,7 +12,6 @@
     justify-items: center;
     /*border: solid 1px red;*/
     width: auto;
-
 }
 
 .header{
@@ -48,7 +47,7 @@ input{
 }
 
 .button{
-    width: 200px;
+    width: 120px;
     align-self: center;
 }
 
@@ -61,9 +60,14 @@ input{
     gap: 15px;
 }
 
-img{
+.logo{
     width: 350px; 
     height: 200px; 
+    object-fit: cover;
+}
+
+.imageLogo{
+    width: 350px; 
     object-fit: cover;
 }
 
@@ -83,8 +87,32 @@ img{
     border: 2px solid #1c4484;
 }
 
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 
+.title.t3{
+    color: #d93025;
+    font-family: arial,sans-serif;
+    margin-left: 10px;
+    font-size: 100%;
+}
 
+.txt{
+    line-height: 16px;
+}
+
+/*.mainContainer.advanced{
+
+    align-items: left ;
+    border: 1px solid rgb(51, 0, 255);
+}*/
+
+.searchContainer.advanced{
+    align-self: flex-start;
+}
 
 
 
